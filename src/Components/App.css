@@ -1,0 +1,36 @@
+html,
+body {
+    font-family: "Amazon Ember";
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Scroll Bar */
+
+#search_btn {
+    background-color: #febd69;
+}
+
+.input-group {
+    width: 90%;
+    margin-right: 35%;
+}
+
+#search_field {
+    height: 2.4rem;
+    padding: 1rem;
+}
+
+#login_btn,
+#view_btn {
+    background-color: #febd69;
+    padding: 0.4rem 1.8rem;
+    font-family: calibri;
+}
+
+.lolo{
+    
+}
