@@ -19,7 +19,7 @@ const items = (item) => {
 };
 
 const Home = () => {
-    const showCart = useSelector((state) => state.ui.cartIsVisible);
+    const cartVisibility = useSelector((state) => state.ui.cartIsVisible);
     const { posts, loading } = useSelector((state) => state.post);
     const dispatch = useDispatch();
 
@@ -31,7 +31,7 @@ const Home = () => {
     return (
         <Fragment>
             <Header />
-            {showCart && <Cart />}
+            {cartVisibility && <Cart />}
             <Container>
                 <Row>{posts.map(items)}</Row>
             </Container>

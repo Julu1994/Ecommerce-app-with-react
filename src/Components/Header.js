@@ -1,9 +1,7 @@
 import React from "react";
 import { Fragment } from "react";
-import { CloseButton } from "react-bootstrap";
 import "./App.css";
 import CartButton from "./CartButton";
-// import {Navbar, Nav, Container} from 'react-bootstrap';
 
 const Header = () => {
     
